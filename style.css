@@ -1,15 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .body {
     background-color: #dbe4f2;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
+
 h1, p, a {
     margin-top: 20px;
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
 
 .card {
     max-width: 300px;
@@ -30,14 +36,12 @@ body {
     border-radius: 7px;
 }
 
-.card .para {
+.card > .para {
     text-align: center;
     margin-top: 20px;
-}
-
-.card .para {
     color: #007BFF;
     text-decoration: none;
+    padding: 20px;
 }
 
 .card .para a:hover {
@@ -48,6 +52,7 @@ body {
 }
 .improve {
     color: rgb(14, 14, 51);
+    font-weight: bolder;
 
 }
 
